@@ -4,23 +4,22 @@
 #
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
-# Core Unity generated folders
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
+# Unity generated folders (ignore everywhere)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
 
 # Prevent Windows long‑path errors (your current issue)
-# Unity's PackageCache contains extremely deep paths — NEVER commit it
-/[Ll]ibrary/PackageCache/
+[Ll]ibrary/PackageCache/
 
-# Unity cache inside Assets
-/[Aa]ssets/[Ss]ceneDependencyCache*/
+# Unity cache inside Assets (ignore everywhere)
+[Aa]ssets/[Ss]ceneDependencyCache*/
 
 # Log files
 *.log
@@ -30,7 +29,7 @@
 *.blend1.meta
 
 # JetBrains Rider
-/[Aa]ssets/Plugins/Editor/JetBrains*
+[Aa]ssets/Plugins/Editor/JetBrains*
 *.DotSettings.user
 
 # Visual Studio / IDE
@@ -72,17 +71,17 @@ crashlytics-build.properties
 InitTestScene*.unity*
 
 # Addressables
-/ServerData
-/[Aa]ssets/StreamingAssets/aa*
-/[Aa]ssets/AddressableAssetsData/link.xml*
-/[Aa]ssets/Addressables_Temp*
-/[Aa]ssets/AddressableAssetsData/*/*.bin*
+ServerData/
+[Aa]ssets/StreamingAssets/aa*
+[Aa]ssets/AddressableAssetsData/link.xml*
+[Aa]ssets/Addressables_Temp*
+[Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Visual Scripting
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
-/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
 # Auto-generated scenes by play mode tests
-/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
