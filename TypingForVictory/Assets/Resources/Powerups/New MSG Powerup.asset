@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 284dd7becabc9b74f9f08a660acf603b, type: 3}
+  m_Name: New MSG Powerup
+  m_EditorClassIdentifier: 
+  powerupName: MSG
+  description: Fires a short burst of bullets around the player (bullets are weak
+    and can only damage single letter enemies).
+  icon: {fileID: 0}
+  category: 2
+  energyCost: 100
+  bulletPrefab: {fileID: 2624745609520814844, guid: 6f6ac115e282c1748af5850a901fc8c8, type: 3}
+  count: 24
+  radius: 1.5

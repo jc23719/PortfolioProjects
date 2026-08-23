@@ -1,2 +1,2 @@
 # PortfolioProjects
-A showcase of completed projects
+A showcase of completed projects using Unity.

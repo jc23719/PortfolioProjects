@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1151d936d48a1142b26cc573886d778, type: 3}
+  m_Name: New Knife Powerup
+  m_EditorClassIdentifier: 
+  powerupName: KNIFE
+  description: A circle of knives will surround the player killing enemies that touch
+    them (only lasts for a short amount of time).
+  icon: {fileID: 0}
+  category: 2
+  energyCost: 120
+  knifeRingPrefab: {fileID: 6707283384730757189, guid: 89284fea426d9b04a865d2aed0323631, type: 3}
+  duration: 4

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef59801084027f348b15aac3b10bb252, type: 3}
+  m_Name: New Shield Powerup
+  m_EditorClassIdentifier: 
+  powerupName: SHIELD
+  description: Shields player from damage for a few seconds.
+  icon: {fileID: 0}
+  category: 1
+  energyCost: 90
+  duration: 4
+  shieldPrefab: {fileID: 3920284873182959199, guid: 1fad4989a4170034c9e6bf432ccec82d, type: 3}
