@@ -12,4 +12,4 @@ https://globalgamejam.org/games/2025/prepare-trouble-make-it-bubble-1
 
 
 https://globalgamejam.org/games/2026/midnight-masquerade-7
-
+<!-- ![MidnightMasquerade](Imgs/start_screen.png) -->
